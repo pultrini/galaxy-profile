@@ -32,24 +32,26 @@ social:
 # Each arm spirals out from the center with its own color and tech items
 # Available colors: "synapse_cyan", "dendrite_violet", "axon_amber"
 galaxy_arms:
-  - name: "Frontend"
+  - name: "Backend"
     color: "dendrite_violet"
     items:
       - "TypeScript"
       - "Golang"
-      - "CSS"
-  - name: "Backend"
+      - "Node.js"
+  - name: "Data Scientist"
     color: "synapse_cyan"
     items:
       - "Python"
-      - "Node.js"
+      - "MLOps"
       - "PostgreSQL"
-  - name: "DevOps"
+      - "SQL"
+  - name: "Data Engineer"
     color: "axon_amber"
     items:
       - "Docker"
-      - "GitHub Actions"
+      - "Airflow"
       - "Databricks"
+      - "Spark"
 
 # Featured projects shown as constellation stars
 # Each project needs:
